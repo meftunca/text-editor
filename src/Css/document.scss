@@ -1,0 +1,15 @@
+@import "paper.scss";
+@import "scrollbar.scss";
+@import "attribute.scss";
+.toolbar-button-seperator {
+  display: inline-flex;
+  height: 20px;
+  width: 1px;
+  position: relative;
+  background-color: #777;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+*:not([contenteditable]) {
+  user-select: none;
+}
